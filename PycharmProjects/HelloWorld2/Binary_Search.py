@@ -43,6 +43,5 @@ if __name__ == '__main__':
     print(compare_loop(user_input, a))
     print(binary_search(user_input, a))
     print(a)
-0
 
 
