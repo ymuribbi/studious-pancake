@@ -1,5 +1,3 @@
-
-
 def produce_fibonacci(x):
     fib = []
     for i in range(0, x):
@@ -21,7 +19,7 @@ def compare_loop(user_input, main_list):  # compare with loop
     return False
 
 
-def binary_search(input_element, ordered_list):  # compare with binary search
+def binary_search(input_element, ordered_list):  # compare with binary search (iterative)
     start_index = 0
     end_index = len(ordered_list)-1
 
@@ -35,6 +33,7 @@ def binary_search(input_element, ordered_list):  # compare with binary search
         else:
             start_index = middle_index + 1
     return False
+
 
 if __name__ == '__main__':
     user_input = get_input("Number of elements in Fibonacci: ")
